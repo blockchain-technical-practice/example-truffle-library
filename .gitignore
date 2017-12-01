@@ -1,0 +1,5 @@
+.idea/
+deploy_mnemonic.key
+test_register.js
+test_names.js
+node_modules/

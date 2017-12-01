@@ -1,0 +1,56 @@
+{
+  "contract_name": "SimpleNameRegistry",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "names",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "bytes32"
+        },
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "register",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b7f646f6e617465000000000000000000000000000000000000000000000000000060009081526020527fc725da53770b15d4bbf7cbd8dbf8474581242173379045f6d4cc668f4d71b90c8054600160a060020a03191633600160a060020a03161790555b5b61010e8061007e6000396000f300606060405263ffffffff60e060020a60003504166320c38e2b8114602c578063d22057a9146055575b6000565b3460005760396004356070565b60408051600160a060020a039092168252519081900360200190f35b34600057606e600435600160a060020a0360243516608b565b005b600060208190529081526040902054600160a060020a031681565b600082815260208190526040902054600160a060020a0316151560dd576000828152602081905260409020805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0383161790555b5b50505600a165627a7a7230582060abce4c47ae4773c150af0d8400df09a44f77adf5d83d8d5751745509ceff590029",
+  "networks": {
+    "3": {
+      "events": {},
+      "links": {},
+      "address": "0x75ad730a8bdc4e8fc62842563ad59a9d05855500",
+      "updated_at": 1512102209703
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1512102209703
+}
