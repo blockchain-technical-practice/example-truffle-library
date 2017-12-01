@@ -18,7 +18,6 @@ module.exports = {
         SimpleNameRegistry.deployed().then(function (instance) {
             return instance.names(name);
         }).then(function (address) {
-            console.info(address);
             callback(null, address);
         }).catch(callback);
 
